@@ -101,7 +101,7 @@ creditcard.csv → preprocess.py → model.py (train/load) → anomaly.py → ri
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/fraud-risk-platform.git
+git clone https://github.com/rah-9/NeuralGuard_ML_Powered_Fraud_Detection.git
 cd fraud-risk-platform
 
 # 2. Create and activate a virtual environment
