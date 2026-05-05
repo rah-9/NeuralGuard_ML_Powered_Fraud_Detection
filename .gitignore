@@ -1,0 +1,38 @@
+# Dataset — too large for GitHub (150MB). Download from Kaggle.
+data/creditcard.csv
+
+# Trained model binary
+outputs/model.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# Streamlit cache
+.streamlit/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Screenshot used during build only
+dashboard.png

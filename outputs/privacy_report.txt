@@ -1,0 +1,26 @@
+============================================================
+          PRIVACY REPORT — PII SCAN RESULTS
+============================================================
+
+Total PII instances detected: 5
+
+Breakdown by PII Type:
+----------------------------------------
+  Email           : 1
+  Phone           : 1
+  CreditCard      : 1
+  Aadhaar         : 2
+
+Detailed Findings:
+----------------------------------------
+  [1] Type=Email            Match="ram.doe@example.com"  Pos=8-27
+  [2] Type=Phone            Match="+91-9876543210"  Pos=36-50
+  [3] Type=CreditCard       Match="4111 1111 1111 1111"  Pos=58-77
+  [4] Type=Aadhaar          Match="4111 1111 1111"  Pos=58-72
+  [5] Type=Aadhaar          Match="1234 5678 9012"  Pos=88-102
+
+Masked Output:
+----------------------------------------
+Contact ***@***.*** or call **********. Card: ****-****-****-****. Aadhaar: ****-****-****.
+
+============================================================
